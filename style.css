@@ -3,16 +3,22 @@
     padding: 0;
 }
 
-.banner{
-    width: auto;
-    padding: 0;
 
+
+.banner{
+    display: none;
 }
+
+.body h1{  
+    padding: 10px;
+}
+
 .body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
     text-align: center;
+    width: 100%;
 }
 
 .img{
@@ -31,9 +37,7 @@
 }
 
 .play_btn {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    padding: 25px;
     width: 100px;
     display: block;
     margin-left: auto;
