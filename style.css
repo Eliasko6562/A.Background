@@ -7,6 +7,7 @@
     display: none;
 }
 
+
 .body h1{  
     padding: 10px;
 }
@@ -30,12 +31,10 @@
 }
 
 .play_btn {
-    border: 0cap;
-    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
     width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .play_btn:hover {
