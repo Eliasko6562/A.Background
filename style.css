@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-* {
-    background-image: url('cardbackground.png');
-}
-
 .banner {
     display: none;
 }
