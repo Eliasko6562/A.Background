@@ -31,6 +31,7 @@ background: linear-gradient(to right, #72757a, #8EB3F5);
     border-style: calc(circle);
     padding: 10px;
     width: 100px;
+    
 }
 
 .play_btn:hover {
@@ -42,5 +43,19 @@ background: linear-gradient(to right, #72757a, #8EB3F5);
         display: block;
         width: 100%;
     }
-
 }
+
+@keyframes example {
+    0%   {background-color:rgba(255, 0, 0, 0); left:-1200px; top:0px;}
+    100% {background-color:rgba(255, 0, 0, 0); left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  a {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0);
+    animation-name: example;
+    animation-duration: 2s;
+  }
