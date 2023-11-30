@@ -7,38 +7,34 @@
     display: none;
 }
 
-
 .body h1{  
     padding: 10px;
+    background: linear-gradient(to right, #8EB3F5, #72757a);
 }
 
 .body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+    color: rgb(255, 255, 0);
     text-align: center;
     width: 100%;
-}
-
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+background: linear-gradient(to right, #72757a, #8EB3F5);
 }
 
 .center {
+    padding-top: 20px;
     width: 100%;
 }
 
 .play_btn {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    background: radial-gradient(circle, #8EB3F5 55%, #535559 80%);
+    border-radius: 100%;
+    border-style: calc(circle);
+    padding: 10px;
     width: 100px;
 }
 
 .play_btn:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 0 1px 1px rgba(0, 140, 186, 0.5);
 }
 
 @media screen and (min-width: 767px) {
@@ -48,4 +44,3 @@
     }
 
 }
-   
