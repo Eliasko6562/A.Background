@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+/* Color pallete 
+#43464d
+#535559
+#72757a
+#b4c9f0
+#49679C
+#8EB3F5
+#D5DCE8
+*/
+
 .body h1{  
     padding: 15px;
     background: linear-gradient(to right, #8EB3F5, #72757a);
@@ -16,14 +26,14 @@
 
 div1 {
     position: relative;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: #43464d;
     animation-name: text;
     animation-duration: 3s;
 }
 
 .body{
     font-family: Arial;
-    color: rgb(255, 255, 0);
+    color: #8EB3F5);
     text-align: center;
     width: 100%;
     background: linear-gradient(to right, #72757a, #8EB3F5);

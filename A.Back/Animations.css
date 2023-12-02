@@ -1,18 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
-    min-height: 100vh;
+    min-height: 100%;
     background: #0c192c;
 }
 
 .conatiner{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 
